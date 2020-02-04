@@ -1,4 +1,5 @@
-
+// unknown types
+// never types
 
 let userInput: unknown;
 let userName: string;
@@ -15,6 +16,7 @@ function generateError(message: string, code: number ): never{
            message: message,
            errorCode: code 
         };
+        // while (true){} // create infinite loop
 }
 
 const result = generateError('An Error occur', 500);

@@ -1,4 +1,5 @@
 // Union types:
+// Literal types
 
 // Type Aliases
 type Combinable = number | string;
