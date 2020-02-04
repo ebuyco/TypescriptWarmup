@@ -1,6 +1,9 @@
-// Union samples:
+// Union types:
 
-function combine(input1: number | string , 
+// Aliases
+type Combinable = number | string;
+
+function combine(input1: Combinable, 
     input2: number | string,
     resultConversion: 'as-number' |  'as-text' ){
     let result;
