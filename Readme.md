@@ -14,4 +14,5 @@
       Array    [1,2,3]      Any Javascript array, type can be flexible or strict(regarding the element types)  
       Tuple     [1,2]       Added by the Typescript: Fixed-length array or Fixed type .
       Enum      enum{ NEW, OLD}  Added by Typescript: Automatically enumerated global constant identifiers. 
+      Any        *     Any kind of value , no specific type assignment.
 ```
