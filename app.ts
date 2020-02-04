@@ -18,11 +18,20 @@
 //         role: [2, 'author']
 // };
 
+// const ADMIN = 0;
+// const READ_ONLY = 1;
+// const AUTHOR = 2;
+
+enum Role { ADMIN, READ_ONLY, AUTHOR };
+
+
+
+
 const person = {
     name: 'Juric',
     age: 21,
     hobbies: ['Sports', 'Cooking'],
-    role: 4
+    role: Role.ADMIN
 };
 
 
@@ -42,4 +51,8 @@ console.table(person.name);
 for(const hobby of person.hobbies){
     console.log(hobby.toUpperCase());
     // console.log(hobby.map()); /// This is wrong declaration 
+}
+
+if (person.role === Role.AUTHOR){
+        console.log('is author')
 }
